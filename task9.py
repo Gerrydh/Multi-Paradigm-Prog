@@ -10,3 +10,10 @@ def minElement(arrayList, n):
 if __name__ == '__main__':
 
     print(minElement(arrayList, n))
+#####################################
+
+arrayList2 = [5, 7, 41, 38,]
+
+
+res = min(arrayList, key = lambda i: (isinstance(i, int), i))
+print(res)
